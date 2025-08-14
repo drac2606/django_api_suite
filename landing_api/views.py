@@ -10,7 +10,7 @@ from datetime import datetime
 
 class LandingAPI(APIView):
     name = "Landing API"
-    collection_name = "reservations"
+    collection_name = "landing_data"
 
     def get(self, request):
 
